@@ -13,4 +13,5 @@ test:
 
 run:
 	$(PYTHON) day1.py
+	$(PYTHON) day2.py
 
