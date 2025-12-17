@@ -6,7 +6,7 @@ def solve(puzzle_input:str) -> int:
     # We want to count every time the dial is pointing at 0
     # It starts at 50, turn it to the left (L) decreases the value, 
     # right increases it.
-    # We could implment some kind of circular buffer or maths that "when we go over 99 reset to 0 and when we go below 0 reset ot 99"
+    # We could implement some kind of circular buffer or maths that "when we go over 99 reset to 0 and when we go below 0 reset ot 99"
     # or we could increment the count everytime the result is exactly divisible by 100
     result = 0
     pointer = 50 
@@ -53,9 +53,7 @@ def solve_two(puzzle_input:str, initial_position:int=50) -> int:
             new_pointer = pointer + delta
 
         # Check if we're out of range - in that case we crossed 0!
-        # Or we're actually pointing at zero 
-        if (new_pointer < 0 or new_pointer > 99):
-            
+        if (new_pointer < 0 or new_pointer > 99):            
             # The delta is less than 100 so if we started at 0, we didn't cross it
             if (pointer != 0):
                 result += 1
