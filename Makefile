@@ -16,6 +16,6 @@ test-full:
 	$(PYTHON) -m pytest -v .
 
 run:
-	$(PYTHON) day1.py
-	$(PYTHON) day2.py
-
+	#$(PYTHON) day1.py
+	#$(PYTHON) day2.py
+	$(PYTHON) day3.py
