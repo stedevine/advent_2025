@@ -1,3 +1,4 @@
+import pytest
 from day2 import solve, solve_two, does_sequence_repeat_n_times, has_multiple_repeating_values
 
 def tests() -> None:
@@ -5,7 +6,7 @@ def tests() -> None:
     assert(1227775554 == solve(puzzle_input))
     assert(4174379265 == solve_two(puzzle_input))
     
-
+@pytest.mark.large
 def test_full_input():
     with open('./day2_input') as f:
         puzzle_input = f.read()
