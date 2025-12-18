@@ -18,4 +18,5 @@ test-full:
 run:
 	#$(PYTHON) day1.py
 	#$(PYTHON) day2.py
-	$(PYTHON) day3.py
+	#$(PYTHON) day3.py
+	$(PYTHON) day4.py
