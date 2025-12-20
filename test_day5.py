@@ -13,7 +13,7 @@ def tests() -> None:
 17
 32"""   
     assert 3 == solve(puzzle_input)
-    #assert 14  == solve_two(puzzle_input)
+    assert 14  == solve_two(puzzle_input)
 
 def test_overlapping_ranges() -> None:
     puzzle_input =  """3-5

@@ -20,4 +20,5 @@ run:
 	#$(PYTHON) day2.py
 	#$(PYTHON) day3.py
 	#$(PYTHON) day4.py
-	$(PYTHON) day5.py
+	#$(PYTHON) day5.py
+	$(PYTHON) day6.py
